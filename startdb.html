@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+ 
+  <title>Zoologico.</title>
+  <style>
+  body { background-color: wheat;
+    width: 416px;
+    height: 500px;
+  }
+  #front {
+    text-align: center;
+    border: solid 2px black;
+    background-color: #D3D3D3;
+  
+  }
+  #front2 {
+    text-align: center;
+    border: solid 2px black;
+    height: 500px;
+    background-color: #D3D3D3;
+  
+  }
+  #b {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: solid 1px black;
+  }
+  
+  #input1 {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border: solid 1px black;
+  }   
+@media (max-width: 1500px) {
+     body { background-color: wheat;
+       width: 716px;
+       height: 500px;
+       margin-left: 130px;
+       margin-top: 350px;
+  }
+  #front {
+    text-align: center;
+    border: solid 2px black;
+    background-color: #D3D3D3;
+  
+  }
+  #front2 {
+    text-align: center;
+    border: solid 2px black;
+    height: 500px;
+    background-color: #D3D3D3;
+    font-size: 20px;
+  
+  }
+  #b {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: solid 1px black;
+    font-size: 30px;
+  }
+  
+  #input1 {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border: solid 1px black;
+    font-size: 30px;    
+  }   
+}
+  </style>
+</head>
+<body>
+  <div id="front">
+    <h1>Zoologico.</h1>
+    <h2>Cadastro de animais.</h2>
+  </div><br>
+  <div id="front2">
+    <div id="tela"></div><br>
+    <div id="tela2"></div><br>
+    <div id="tela3"></div><br>
+    <div id="tela4"></div><br>
+    <div id="tela5"></div>
+    <h4>Digite um nome</h4>
+    <input type="text" id="input1" required><br>
+    <h4>Digite uma quantidade</h4>
+    <input type="text"  id="b" required><br><br>
+    <button type="button" onclick="enviar()" style="width: 100px; height: 100px;">Enviar</button>
+  </div>
+  
+</body>
+<script src="script.js"> 
+    </script>
+</html>
